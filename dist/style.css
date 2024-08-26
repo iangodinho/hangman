@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(17, 17, 17);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 50px;
+    color: white;
+}
+
+#exibicao-palavra {
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+#entrada-letra {
+    padding: 4px;
+    background-color: white;
+}
+
+#btn-chutar {
+    margin-bottom: 20px;
+    color: white;
+    padding: 4px;
+}
+
+#letras-chutadas {
+    font-size: 2em;
+    color: rgb(68, 68, 233);
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+#mensagem {
+    display: none;
+}
+
+
+#btn-reiniciar {
+    display: none;
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+}
+
+#btn-reiniciar:hover {
+    background-color: rgb(4, 102, 4);
+}
